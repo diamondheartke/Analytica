@@ -1,4 +1,6 @@
-__pycache__/
-.git
-.env
-test.py
+__pycache__
+test.*
+.venv
+/venv
+*.geany
+Analytica.geany

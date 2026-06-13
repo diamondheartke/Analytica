@@ -15,7 +15,7 @@ class DataLoader:
         try:
             if data_file is None:
                 data_file = self.open_explorer()
-
+ 
             if not data_file:
                 print("[INFO] No file selected")
                 return None

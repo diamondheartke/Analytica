@@ -1,0 +1,30 @@
+Here is a checklist of features, concepts, and optimizations you can add to take your `Engine` class to the next level:
+
+### 1. Granular Subject Tracking
+
+Your docstring hints at classifying *subject* scores, but the logic currently only grades the overall mean.
+
+* **What to add:** A way to map the 4 items in the score lists to their actual names (`["Math", "English", "Kiswahili", "Computer"]`).
+* **The Goal:** Update your individual student dictionaries to return a nested dictionary of subject-specific grades (e.g., `{"Math": "A", "English": "B"...}`).
+
+### 2. Macro Analytics (System Insights)
+
+An engine shouldn't just process students one by one; it should look at the big picture. Add a new method (e.g., `def analyze_dataset(self)`) that uses NumPy to calculate:
+
+* **Subject Averages:** The overall mean score for Math, English, etc., across the *entire* dataset using `axis=0` in NumPy.
+* **School Rankings:** Grouping students by their "School" column to find out which school has the highest collective mean score.
+* **Grade Distribution:** A counter that tells you how many total $A$s, $B$s, $C$s, and $F$s were handed out globally.
+
+### 3. Data Validation & Defensiveness
+
+Right now, if your `DataLoader` hits a row with an empty field or a corrupted score string, `ast.literal_eval` will crash your whole program.
+
+* **What to add:** A `try/except` block inside your `__init__` constructor loop.
+* **The Goal:** If a row is corrupted, have it automatically substitute a fallback list like `[0, 0, 0, 0]` or skip the row entirely and print an info warning, instead of crashing.
+
+### 4. Advanced Ranking Options
+
+Right now, you only rank by total score.
+
+* **What to add:** Arguments to your `rank()` method (e.g., `def rank(self, by="total", subject=None):`).
+* **The Goal:** Allow the user to rank students specifically by who did best in *Math*, or filter the ranking down to show only students from a specific school.
