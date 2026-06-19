@@ -1,0 +1,218 @@
+[
+    {
+        "ID":"T001",
+        "Name":"Kipchumba Kiprop",
+        "School":"Tambach High School",
+        "Math":85,
+        "English":76,
+        "Kiswahili":80,
+        "Science":88
+    },
+    {
+        "ID":"T002",
+        "Name":"Emmanuel Kiptoo",
+        "School":"Tambach High School",
+        "Math":68,
+        "English":70,
+        "Kiswahili":65,
+        "Science":72
+    },
+    {
+        "ID":"T003",
+        "Name":"Silas Kemboi",
+        "School":"Tambach High School",
+        "Math":91,
+        "English":84,
+        "Kiswahili":86,
+        "Science":89
+    },
+    {
+        "ID":"T004",
+        "Name":"Cornelius Rotich",
+        "School":"Tambach High School",
+        "Math":54,
+        "English":60,
+        "Kiswahili":58,
+        "Science":63
+    },
+    {
+        "ID":"T005",
+        "Name":"Gideon Biwott",
+        "School":"Tambach High School",
+        "Math":77,
+        "English":81,
+        "Kiswahili":79,
+        "Science":85
+    },
+    {
+        "ID":"T006",
+        "Name":"Titus Cheboi",
+        "School":"Tambach High School",
+        "Math":63,
+        "English":59,
+        "Kiswahili":67,
+        "Science":60
+    },
+    {
+        "ID":"T007",
+        "Name":"Vincent Lagat",
+        "School":"Tambach High School",
+        "Math":48,
+        "English":52,
+        "Kiswahili":50,
+        "Science":47
+    },
+    {
+        "ID":"T008",
+        "Name":"Kipruto Koech",
+        "School":"Tambach High School",
+        "Math":89,
+        "English":92,
+        "Kiswahili":88,
+        "Science":91
+    },
+    {
+        "ID":"T009",
+        "Name":"Collins Kibet",
+        "School":"Tambach High School",
+        "Math":73,
+        "English":75,
+        "Kiswahili":71,
+        "Science":78
+    },
+    {
+        "ID":"T010",
+        "Name":"Geoffrey Cheruiyot",
+        "School":"Tambach High School",
+        "Math":66,
+        "English":68,
+        "Kiswahili":64,
+        "Science":62
+    },
+    {
+        "ID":"T011",
+        "Name":"Evans Kipkemboi",
+        "School":"Tambach High School",
+        "Math":82,
+        "English":85,
+        "Kiswahili":80,
+        "Science":84
+    },
+    {
+        "ID":"T012",
+        "Name":"Dennis Kwemoi",
+        "School":"Tambach High School",
+        "Math":59,
+        "English":62,
+        "Kiswahili":60,
+        "Science":55
+    },
+    {
+        "ID":"T013",
+        "Name":"Kelvin Tanui",
+        "School":"Tambach High School",
+        "Math":70,
+        "English":74,
+        "Kiswahili":72,
+        "Science":69
+    },
+    {
+        "ID":"T014",
+        "Name":"Robert Komen",
+        "School":"Tambach High School",
+        "Math":42,
+        "English":49,
+        "Kiswahili":45,
+        "Science":51
+    },
+    {
+        "ID":"T015",
+        "Name":"Moses Kipruto",
+        "School":"Tambach High School",
+        "Math":94,
+        "English":88,
+        "Kiswahili":90,
+        "Science":93
+    },
+    {
+        "ID":"T016",
+        "Name":"Amos Chepkwony",
+        "School":"Tambach High School",
+        "Math":79,
+        "English":83,
+        "Kiswahili":81,
+        "Science":80
+    },
+    {
+        "ID":"T017",
+        "Name":"Bernard Kangogo",
+        "School":"Tambach High School",
+        "Math":61,
+        "English":57,
+        "Kiswahili":63,
+        "Science":58
+    },
+    {
+        "ID":"T018",
+        "Name":"Peter Kipchumba",
+        "School":"Tambach High School",
+        "Math":86,
+        "English":90,
+        "Kiswahili":87,
+        "Science":89
+    },
+    {
+        "ID":"T019",
+        "Name":"Meshack Rono",
+        "School":"Tambach High School",
+        "Math":67,
+        "English":71,
+        "Kiswahili":69,
+        "Science":70
+    },
+    {
+        "ID":"T020",
+        "Name":"Brian Kipsang",
+        "School":"Tambach High School",
+        "Math":52,
+        "English":55,
+        "Kiswahili":53,
+        "Science":49
+    },
+    {
+        "ID":"T021",
+        "Name":"Duncan Kibor",
+        "School":"Tambach High School",
+        "Math":80,
+        "English":78,
+        "Kiswahili":83,
+        "Science":82
+    },
+    {
+        "ID":"T022",
+        "Name":"Fredrick Kipkeu",
+        "School":"Tambach High School",
+        "Math":75,
+        "English":77,
+        "Kiswahili":74,
+        "Science":76
+    },
+    {
+        "ID":"T023",
+        "Name":"Hilary Maiyo",
+        "School":"Tambach High School",
+        "Math":90,
+        "English":86,
+        "Kiswahili":89,
+        "Science":92
+    },
+    {
+        "ID":"T024",
+        "Name":"Wilson Kiptum",
+        "School":"Tambach High School",
+        "Math":58,
+        "English":64,
+        "Kiswahili":61,
+        "Science":57
+    }
+]

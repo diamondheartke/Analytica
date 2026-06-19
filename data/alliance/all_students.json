@@ -1,0 +1,218 @@
+[
+    {
+        "ID":"A001",
+        "Name":"Brian Mwangi",
+        "School":"Alliance High School",
+        "Math":88,
+        "English":90,
+        "Kiswahili":78,
+        "Science":85
+    },
+    {
+        "ID":"A002",
+        "Name":"George Njoroge",
+        "School":"Alliance High School",
+        "Math":55,
+        "English":48,
+        "Kiswahili":60,
+        "Science":67
+    },
+    {
+        "ID":"A003",
+        "Name":"Ian Maina",
+        "School":"Alliance High School",
+        "Math":91,
+        "English":85,
+        "Kiswahili":88,
+        "Science":92
+    },
+    {
+        "ID":"A004",
+        "Name":"David Kimani",
+        "School":"Alliance High School",
+        "Math":72,
+        "English":76,
+        "Kiswahili":80,
+        "Science":69
+    },
+    {
+        "ID":"A005",
+        "Name":"Samuel Karanja",
+        "School":"Alliance High School",
+        "Math":64,
+        "English":59,
+        "Kiswahili":71,
+        "Science":63
+    },
+    {
+        "ID":"A006",
+        "Name":"Victor Kipkemboi",
+        "School":"Alliance High School",
+        "Math":83,
+        "English":87,
+        "Kiswahili":79,
+        "Science":88
+    },
+    {
+        "ID":"A007",
+        "Name":"John Kamau",
+        "School":"Alliance High School",
+        "Math":49,
+        "English":55,
+        "Kiswahili":52,
+        "Science":46
+    },
+    {
+        "ID":"A008",
+        "Name":"Patrick Omwamba",
+        "School":"Alliance High School",
+        "Math":77,
+        "English":81,
+        "Kiswahili":74,
+        "Science":85
+    },
+    {
+        "ID":"A009",
+        "Name":"Moses Otieno",
+        "School":"Alliance High School",
+        "Math":95,
+        "English":93,
+        "Kiswahili":89,
+        "Science":96
+    },
+    {
+        "ID":"A010",
+        "Name":"Collins Bett",
+        "School":"Alliance High School",
+        "Math":68,
+        "English":70,
+        "Kiswahili":65,
+        "Science":72
+    },
+    {
+        "ID":"A011",
+        "Name":"Erick Wanjala",
+        "School":"Alliance High School",
+        "Math":58,
+        "English":62,
+        "Kiswahili":60,
+        "Science":54
+    },
+    {
+        "ID":"A012",
+        "Name":"James Ndung'u",
+        "School":"Alliance High School",
+        "Math":86,
+        "English":84,
+        "Kiswahili":91,
+        "Science":89
+    },
+    {
+        "ID":"A013",
+        "Name":"Andrew Kibet",
+        "School":"Alliance High School",
+        "Math":73,
+        "English":79,
+        "Kiswahili":75,
+        "Science":81
+    },
+    {
+        "ID":"A014",
+        "Name":"Peter Nyongesa",
+        "School":"Alliance High School",
+        "Math":42,
+        "English":50,
+        "Kiswahili":47,
+        "Science":45
+    },
+    {
+        "ID":"A015",
+        "Name":"Simon Gathecha",
+        "School":"Alliance High School",
+        "Math":80,
+        "English":82,
+        "Kiswahili":85,
+        "Science":78
+    },
+    {
+        "ID":"A016",
+        "Name":"Evans Kipruto",
+        "School":"Alliance High School",
+        "Math":69,
+        "English":73,
+        "Kiswahili":71,
+        "Science":66
+    },
+    {
+        "ID":"A017",
+        "Name":"Philip Mutiso",
+        "School":"Alliance High School",
+        "Math":92,
+        "English":88,
+        "Kiswahili":94,
+        "Science":90
+    },
+    {
+        "ID":"A018",
+        "Name":"Mathew Kuria",
+        "School":"Alliance High School",
+        "Math":61,
+        "English":58,
+        "Kiswahili":64,
+        "Science":60
+    },
+    {
+        "ID":"A019",
+        "Name":"Paul Mwangangi",
+        "School":"Alliance High School",
+        "Math":75,
+        "English":78,
+        "Kiswahili":72,
+        "Science":83
+    },
+    {
+        "ID":"A020",
+        "Name":"Joseph Maingi",
+        "School":"Alliance High School",
+        "Math":84,
+        "English":86,
+        "Kiswahili":81,
+        "Science":87
+    },
+    {
+        "ID":"A021",
+        "Name":"Charles Wamalwa",
+        "School":"Alliance High School",
+        "Math":53,
+        "English":47,
+        "Kiswahili":55,
+        "Science":51
+    },
+    {
+        "ID":"A022",
+        "Name":"Stephen Kiptoo",
+        "School":"Alliance High School",
+        "Math":79,
+        "English":83,
+        "Kiswahili":80,
+        "Science":82
+    },
+    {
+        "ID":"A023",
+        "Name":"Timothy Ochieng",
+        "School":"Alliance High School",
+        "Math":87,
+        "English":89,
+        "Kiswahili":86,
+        "Science":91
+    },
+    {
+        "ID":"A024",
+        "Name":"Francis Kariuki",
+        "School":"Alliance High School",
+        "Math":66,
+        "English":68,
+        "Kiswahili":70,
+        "Science":64
+    }
+]

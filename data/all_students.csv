@@ -1,0 +1,97 @@
+ID,Name,School,Caleb Bett,Math,English,Kiswahili,Science
+S001,Ava Heart,Nairobi High School,,80,75,54,92
+S002,Amina Hope,Nairobi High School,,74,84,64,54
+S003,Dennis Kosgei,Nairobi High School,,94,54,66,84
+S004,Chantal Ineza,Nairobi High School,,45,60,52,48
+S005,Kamau Mwangi,Nairobi High School,,85,78,90,88
+S006,Grace Mutua,Nairobi High School,,68,72,70,65
+S007,Josphat Kiprono,Nairobi High School,,55,49,61,50
+S008,Mary Atieno,Nairobi High School,,92,88,85,95
+S009,Alex Otieno,Nairobi High School,,41,53,48,38
+S010,Zainab Juma,Nairobi High School,,79,81,77,83
+S011,Kevin Omwamba,Nairobi High School,,63,67,58,72
+S012,Esther Waweru,Nairobi High School,,87,84,89,91
+S013,Michael Silas,Nairobi High School,,70,75,73,68
+S014,Sarah Nafula,Nairobi High School,,58,62,65,59
+S015,Emmanuel Kiprop,Nairobi High School,,76,70,82,78
+S016,Mercy Chepkorir,Nairobi High School,,89,91,87,93
+S017,Anthony Ndwiga,Nairobi High School,,47,51,50,46
+S018,Faith Muthoni,Nairobi High School,,82,79,85,80
+S019,Peter Omondi,Nairobi High School,,66,60,64,70
+S020,Lucy Njeri,Nairobi High School,,73,76,71,74
+S021,,Nairobi High School,Caleb Bett,90,85,88,87
+S022,Aisha Mohamed,Nairobi High School,,52,57,54,61
+S023,Daniel Gakuru,Nairobi High School,,81,83,80,85
+S024,Priscah Chemutai,Nairobi High School,,60,64,62,58
+A001,Brian Mwangi,Alliance High School,,88,90,78,85
+A002,George Njoroge,Alliance High School,,55,48,60,67
+A003,Ian Maina,Alliance High School,,91,85,88,92
+A004,David Kimani,Alliance High School,,72,76,80,69
+A005,Samuel Karanja,Alliance High School,,64,59,71,63
+A006,Victor Kipkemboi,Alliance High School,,83,87,79,88
+A007,John Kamau,Alliance High School,,49,55,52,46
+A008,Patrick Omwamba,Alliance High School,,77,81,74,85
+A009,Moses Otieno,Alliance High School,,95,93,89,96
+A010,Collins Bett,Alliance High School,,68,70,65,72
+A011,Erick Wanjala,Alliance High School,,58,62,60,54
+A012,James Ndung'u,Alliance High School,,86,84,91,89
+A013,Andrew Kibet,Alliance High School,,73,79,75,81
+A014,Peter Nyongesa,Alliance High School,,42,50,47,45
+A015,Simon Gathecha,Alliance High School,,80,82,85,78
+A016,Evans Kipruto,Alliance High School,,69,73,71,66
+A017,Philip Mutiso,Alliance High School,,92,88,94,90
+A018,Mathew Kuria,Alliance High School,,61,58,64,60
+A019,Paul Mwangangi,Alliance High School,,75,78,72,83
+A020,Joseph Maingi,Alliance High School,,84,86,81,87
+A021,Charles Wamalwa,Alliance High School,,53,47,55,51
+A022,Stephen Kiptoo,Alliance High School,,79,83,80,82
+A023,Timothy Ochieng,Alliance High School,,87,89,86,91
+A024,Francis Kariuki,Alliance High School,,66,68,70,64
+T001,Kipchumba Kiprop,Tambach High School,,85,76,80,88
+T002,Emmanuel Kiptoo,Tambach High School,,68,70,65,72
+T003,Silas Kemboi,Tambach High School,,91,84,86,89
+T004,Cornelius Rotich,Tambach High School,,54,60,58,63
+T005,Gideon Biwott,Tambach High School,,77,81,79,85
+T006,Titus Cheboi,Tambach High School,,63,59,67,60
+T007,Vincent Lagat,Tambach High School,,48,52,50,47
+T008,Kipruto Koech,Tambach High School,,89,92,88,91
+T009,Collins Kibet,Tambach High School,,73,75,71,78
+T010,Geoffrey Cheruiyot,Tambach High School,,66,68,64,62
+T011,Evans Kipkemboi,Tambach High School,,82,85,80,84
+T012,Dennis Kwemoi,Tambach High School,,59,62,60,55
+T013,Kelvin Tanui,Tambach High School,,70,74,72,69
+T014,Robert Komen,Tambach High School,,42,49,45,51
+T015,Moses Kipruto,Tambach High School,,94,88,90,93
+T016,Amos Chepkwony,Tambach High School,,79,83,81,80
+T017,Bernard Kangogo,Tambach High School,,61,57,63,58
+T018,Peter Kipchumba,Tambach High School,,86,90,87,89
+T019,Meshack Rono,Tambach High School,,67,71,69,70
+T020,Brian Kipsang,Tambach High School,,52,55,53,49
+T021,Duncan Kibor,Tambach High School,,80,78,83,82
+T022,Fredrick Kipkeu,Tambach High School,,75,77,74,76
+T023,Hilary Maiyo,Tambach High School,,90,86,89,92
+T024,Wilson Kiptum,Tambach High School,,58,64,61,57
+SG001,Mercy Chepkorir,Singo're Girls,,89,91,87,93
+SG002,Priscah Chemutai,Singo're Girls,,60,64,62,58
+SG003,Linah Chebet,Singo're Girls,,84,88,85,82
+SG004,Faith Kiprop,Singo're Girls,,73,76,71,79
+SG005,Gladys Jerotich,Singo're Girls,,52,58,55,61
+SG006,Sharon Kiptoo,Singo're Girls,,91,89,94,92
+SG007,Brenda Chepkemoi,Singo're Girls,,66,70,68,65
+SG008,Nancy Jepchirchir,Singo're Girls,,45,52,48,50
+SG009,Diana Chelagat,Singo're Girls,,82,85,81,87
+SG010,Vivian Jelagat,Singo're Girls,,70,74,72,69
+SG011,Ruth Jepkoech,Singo're Girls,,58,61,59,56
+SG012,Caroline Chepkoech,Singo're Girls,,95,92,90,96
+SG013,Naomi Jematia,Singo're Girls,,77,80,78,83
+SG014,Emily Jepkemoi,Singo're Girls,,63,67,65,60
+SG015,Jackline Chepkosgei,Singo're Girls,,41,48,44,46
+SG016,Stacy Chepkurui,Singo're Girls,,88,86,89,91
+SG017,Daisy Jepchumba,Singo're Girls,,71,75,73,70
+SG018,Mercy Jelimo,Singo're Girls,,54,57,60,53
+SG019,Joy Cheptoo,Singo're Girls,,86,90,88,85
+SG020,Phyllis Jepkorir,Singo're Girls,,68,72,70,66
+SG021,Anita Chebet,Singo're Girls,,49,53,51,47
+SG022,Hellen Juma,Singo're Girls,,80,83,82,84
+SG023,Lydia Chemutai,Singo're Girls,,75,78,76,77
+SG024,Rachael Jepleting,Singo're Girls,,93,91,95,89

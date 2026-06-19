@@ -4,3 +4,4 @@ test.*
 /venv
 *.geany
 Analytica.geany
+notes/

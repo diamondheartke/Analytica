@@ -1,7 +1,24 @@
 import pandas as pd
+import os
 
-# 24 Students for Nairobi High School with varying score distributions
-data = [
+print(f"{'='*30}\nInitializing Analytica sample datasets\n{'='*30}")
+
+directories = [
+    "data/nairobi", 
+    "data/tambach",
+    "data/singore",
+    "data/alliance"
+]
+
+for path in directories:
+    os.makedirs(path, exist_ok=True) # Prevent errors if dirs exist
+    
+print("Directory check complete!\n\n")
+
+print("Creating sample datasets......\n\n")
+
+# --- DATA DEFINITIONS (Kept as lists for clean setup) ---
+nairobi_data = [
     {"ID": "S001", "Name": "Ava Heart", "School": "Nairobi High School", "Score": [80, 75, 54, 92]},
     {"ID": "S002", "Name": "Amina Hope", "School": "Nairobi High School", "Score": [74, 84, 64, 54]},
     {"ID": "S003", "Name": "Dennis Kosgei", "School": "Nairobi High School", "Score": [94, 54, 66, 84]},
@@ -22,7 +39,7 @@ data = [
     {"ID": "S018", "Name": "Faith Muthoni", "School": "Nairobi High School", "Score": [82, 79, 85, 80]},
     {"ID": "S019", "Name": "Peter Omondi", "School": "Nairobi High School", "Score": [66, 60, 64, 70]},
     {"ID": "S020", "Name": "Lucy Njeri", "School": "Nairobi High School", "Score": [73, 76, 71, 74]},
-    {"ID": "S021", "Name": "Caleb Bett", "School": "Nairobi High School", "Score": [90, 85, 88, 87]},
+    {"ID": "S021", "Caleb Bett": "Caleb Bett", "School": "Nairobi High School", "Score": [90, 85, 88, 87]},
     {"ID": "S022", "Name": "Aisha Mohamed", "School": "Nairobi High School", "Score": [52, 57, 54, 61]},
     {"ID": "S023", "Name": "Daniel Gakuru", "School": "Nairobi High School", "Score": [81, 83, 80, 85]},
     {"ID": "S024", "Name": "Priscah Chemutai", "School": "Nairobi High School", "Score": [60, 64, 62, 58]}
@@ -82,33 +99,6 @@ tambach_data = [
     {"ID": "T024", "Name": "Wilson Kiptum", "School": "Tambach High School", "Score": [58, 64, 61, 57]}
 ]
 
-tambach_data = [
-    {"ID": "T001", "Name": "Kipchumba Kiprop", "School": "Tambach High School", "Score": [85, 76, 80, 88]},
-    {"ID": "T002", "Name": "Emmanuel Kiptoo", "School": "Tambach High School", "Score": [68, 70, 65, 72]},
-    {"ID": "T003", "Name": "Silas Kemboi", "School": "Tambach High School", "Score": [91, 84, 86, 89]},
-    {"ID": "T004", "Name": "Cornelius Rotich", "School": "Tambach High School", "Score": [54, 60, 58, 63]},
-    {"ID": "T005", "Name": "Gideon Biwott", "School": "Tambach High School", "Score": [77, 81, 79, 85]},
-    {"ID": "T006", "Name": "Titus Cheboi", "School": "Tambach High School", "Score": [63, 59, 67, 60]},
-    {"ID": "T007", "Name": "Vincent Lagat", "School": "Tambach High School", "Score": [48, 52, 50, 47]},
-    {"ID": "T008", "Name": "Kipruto Koech", "School": "Tambach High School", "Score": [89, 92, 88, 91]},
-    {"ID": "T009", "Name": "Collins Kibet", "School": "Tambach High School", "Score": [73, 75, 71, 78]},
-    {"ID": "T010", "Name": "Geoffrey Cheruiyot", "School": "Tambach High School", "Score": [66, 68, 64, 62]},
-    {"ID": "T011", "Name": "Evans Kipkemboi", "School": "Tambach High School", "Score": [82, 85, 80, 84]},
-    {"ID": "T012", "Name": "Dennis Kwemoi", "School": "Tambach High School", "Score": [59, 62, 60, 55]},
-    {"ID": "T013", "Name": "Kelvin Tanui", "School": "Tambach High School", "Score": [70, 74, 72, 69]},
-    {"ID": "T014", "Name": "Robert Komen", "School": "Tambach High School", "Score": [42, 49, 45, 51]},
-    {"ID": "T015", "Name": "Moses Kipruto", "School": "Tambach High School", "Score": [94, 88, 90, 93]},
-    {"ID": "T016", "Name": "Amos Chepkwony", "School": "Tambach High School", "Score": [79, 83, 81, 80]},
-    {"ID": "T017", "Name": "Bernard Kangogo", "School": "Tambach High School", "Score": [61, 57, 63, 58]},
-    {"ID": "T018", "Name": "Peter Kipchumba", "School": "Tambach High School", "Score": [86, 90, 87, 89]},
-    {"ID": "T019", "Name": "Meshack Rono", "School": "Tambach High School", "Score": [67, 71, 69, 70]},
-    {"ID": "T020", "Name": "Brian Kipsang", "School": "Tambach High School", "Score": [52, 55, 53, 49]},
-    {"ID": "T021", "Name": "Duncan Kibor", "School": "Tambach High School", "Score": [80, 78, 83, 82]},
-    {"ID": "T022", "Name": "Fredrick Kipkeu", "School": "Tambach High School", "Score": [75, 77, 74, 76]},
-    {"ID": "T023", "Name": "Hilary Maiyo", "School": "Tambach High School", "Score": [90, 86, 89, 92]},
-    {"ID": "T024", "Name": "Wilson Kiptum", "School": "Tambach High School", "Score": [58, 64, 61, 57]}
-]
-
 singore_data = [
     {"ID": "SG001", "Name": "Mercy Chepkorir", "School": "Singo're Girls", "Score": [89, 91, 87, 93]},
     {"ID": "SG002", "Name": "Priscah Chemutai", "School": "Singo're Girls", "Score": [60, 64, 62, 58]},
@@ -136,13 +126,44 @@ singore_data = [
     {"ID": "SG024", "Name": "Rachael Jepleting", "School": "Singo're Girls", "Score": [93, 91, 95, 89]}
 ]
 
-full_data = nairobi_data + alliance_data + tambach_data + maseno_data + singore_data
 
-# Convert the master list to a DataFrame
-df = pd.DataFrame(full_data)
+# --- THE DATAFRAME REFACTORING FUNCTION ---
+def process_and_save_data(raw_data, folder_name):
+    """
+    Converts list of dicts to DataFrame, expands the Score list into separate 
+    subject columns, drops the old 'Score' column, and exports to disk.
+    """
+    df = pd.DataFrame(raw_data)
+    
+    # 1. Expand the 'Score' list into separate columns
+    subjects = ['Math', 'English', 'Kiswahili', 'Science']
+    df[subjects] = pd.DataFrame(df['Score'].tolist(), index=df.index)
+    
+    # 2. Drop the unscaled 'Score' column
+    df = df.drop(columns=['Score'])
+    
+    # 3. Save files
+    base_path = f"data/{folder_name}/all_students"
+    df.to_csv(f"{base_path}.csv", index=False)
+    df.to_excel(f"{base_path}.xlsx", index=False)
+    df.to_json(f"{base_path}.json", orient="records", indent=4) # Cleaned up json structure
+    
+    print(f"[SUCCESS] Created and scaled {folder_name} data!")
+    return df
 
-df.to_csv("data/all_students.csv", index=False)
-df.to_excel("data/all_students.xlsx", index=False)
-df.to_json("data/all_students.json", indent=4)
 
-print(f"[SUCCESS] Combined dataset created with {len(df)} total students.")
+# --- PROCESS INDIVIDUAL SCHOOLS ---
+n_df = process_and_save_data(nairobi_data, "nairobi")
+a_df = process_and_save_data(alliance_data, "alliance")
+t_df = process_and_save_data(tambach_data, "tambach")
+s_df = process_and_save_data(singore_data, "singore")
+
+
+# --- COMBINE AND MASTER LIST ---
+full_df = pd.concat([n_df, a_df, t_df, s_df], ignore_index=True)
+
+full_df.to_csv("data/all_students.csv", index=False)
+full_df.to_excel("data/all_students.xlsx", index=False)
+full_df.to_json("data/all_students.json", orient="records", indent=4)
+
+print(f"\n\n[SUCCESS] Master dataset created with {len(full_df)} total students across labeled columns.")

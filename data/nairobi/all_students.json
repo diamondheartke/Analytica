@@ -1,0 +1,242 @@
+[
+    {
+        "ID":"S001",
+        "Name":"Ava Heart",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":80,
+        "English":75,
+        "Kiswahili":54,
+        "Science":92
+    },
+    {
+        "ID":"S002",
+        "Name":"Amina Hope",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":74,
+        "English":84,
+        "Kiswahili":64,
+        "Science":54
+    },
+    {
+        "ID":"S003",
+        "Name":"Dennis Kosgei",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":94,
+        "English":54,
+        "Kiswahili":66,
+        "Science":84
+    },
+    {
+        "ID":"S004",
+        "Name":"Chantal Ineza",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":45,
+        "English":60,
+        "Kiswahili":52,
+        "Science":48
+    },
+    {
+        "ID":"S005",
+        "Name":"Kamau Mwangi",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":85,
+        "English":78,
+        "Kiswahili":90,
+        "Science":88
+    },
+    {
+        "ID":"S006",
+        "Name":"Grace Mutua",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":68,
+        "English":72,
+        "Kiswahili":70,
+        "Science":65
+    },
+    {
+        "ID":"S007",
+        "Name":"Josphat Kiprono",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":55,
+        "English":49,
+        "Kiswahili":61,
+        "Science":50
+    },
+    {
+        "ID":"S008",
+        "Name":"Mary Atieno",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":92,
+        "English":88,
+        "Kiswahili":85,
+        "Science":95
+    },
+    {
+        "ID":"S009",
+        "Name":"Alex Otieno",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":41,
+        "English":53,
+        "Kiswahili":48,
+        "Science":38
+    },
+    {
+        "ID":"S010",
+        "Name":"Zainab Juma",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":79,
+        "English":81,
+        "Kiswahili":77,
+        "Science":83
+    },
+    {
+        "ID":"S011",
+        "Name":"Kevin Omwamba",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":63,
+        "English":67,
+        "Kiswahili":58,
+        "Science":72
+    },
+    {
+        "ID":"S012",
+        "Name":"Esther Waweru",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":87,
+        "English":84,
+        "Kiswahili":89,
+        "Science":91
+    },
+    {
+        "ID":"S013",
+        "Name":"Michael Silas",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":70,
+        "English":75,
+        "Kiswahili":73,
+        "Science":68
+    },
+    {
+        "ID":"S014",
+        "Name":"Sarah Nafula",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":58,
+        "English":62,
+        "Kiswahili":65,
+        "Science":59
+    },
+    {
+        "ID":"S015",
+        "Name":"Emmanuel Kiprop",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":76,
+        "English":70,
+        "Kiswahili":82,
+        "Science":78
+    },
+    {
+        "ID":"S016",
+        "Name":"Mercy Chepkorir",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":89,
+        "English":91,
+        "Kiswahili":87,
+        "Science":93
+    },
+    {
+        "ID":"S017",
+        "Name":"Anthony Ndwiga",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":47,
+        "English":51,
+        "Kiswahili":50,
+        "Science":46
+    },
+    {
+        "ID":"S018",
+        "Name":"Faith Muthoni",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":82,
+        "English":79,
+        "Kiswahili":85,
+        "Science":80
+    },
+    {
+        "ID":"S019",
+        "Name":"Peter Omondi",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":66,
+        "English":60,
+        "Kiswahili":64,
+        "Science":70
+    },
+    {
+        "ID":"S020",
+        "Name":"Lucy Njeri",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":73,
+        "English":76,
+        "Kiswahili":71,
+        "Science":74
+    },
+    {
+        "ID":"S021",
+        "Name":null,
+        "School":"Nairobi High School",
+        "Caleb Bett":"Caleb Bett",
+        "Math":90,
+        "English":85,
+        "Kiswahili":88,
+        "Science":87
+    },
+    {
+        "ID":"S022",
+        "Name":"Aisha Mohamed",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":52,
+        "English":57,
+        "Kiswahili":54,
+        "Science":61
+    },
+    {
+        "ID":"S023",
+        "Name":"Daniel Gakuru",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":81,
+        "English":83,
+        "Kiswahili":80,
+        "Science":85
+    },
+    {
+        "ID":"S024",
+        "Name":"Priscah Chemutai",
+        "School":"Nairobi High School",
+        "Caleb Bett":null,
+        "Math":60,
+        "English":64,
+        "Kiswahili":62,
+        "Science":58
+    }
+]

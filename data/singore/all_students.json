@@ -1,0 +1,218 @@
+[
+    {
+        "ID":"SG001",
+        "Name":"Mercy Chepkorir",
+        "School":"Singo're Girls",
+        "Math":89,
+        "English":91,
+        "Kiswahili":87,
+        "Science":93
+    },
+    {
+        "ID":"SG002",
+        "Name":"Priscah Chemutai",
+        "School":"Singo're Girls",
+        "Math":60,
+        "English":64,
+        "Kiswahili":62,
+        "Science":58
+    },
+    {
+        "ID":"SG003",
+        "Name":"Linah Chebet",
+        "School":"Singo're Girls",
+        "Math":84,
+        "English":88,
+        "Kiswahili":85,
+        "Science":82
+    },
+    {
+        "ID":"SG004",
+        "Name":"Faith Kiprop",
+        "School":"Singo're Girls",
+        "Math":73,
+        "English":76,
+        "Kiswahili":71,
+        "Science":79
+    },
+    {
+        "ID":"SG005",
+        "Name":"Gladys Jerotich",
+        "School":"Singo're Girls",
+        "Math":52,
+        "English":58,
+        "Kiswahili":55,
+        "Science":61
+    },
+    {
+        "ID":"SG006",
+        "Name":"Sharon Kiptoo",
+        "School":"Singo're Girls",
+        "Math":91,
+        "English":89,
+        "Kiswahili":94,
+        "Science":92
+    },
+    {
+        "ID":"SG007",
+        "Name":"Brenda Chepkemoi",
+        "School":"Singo're Girls",
+        "Math":66,
+        "English":70,
+        "Kiswahili":68,
+        "Science":65
+    },
+    {
+        "ID":"SG008",
+        "Name":"Nancy Jepchirchir",
+        "School":"Singo're Girls",
+        "Math":45,
+        "English":52,
+        "Kiswahili":48,
+        "Science":50
+    },
+    {
+        "ID":"SG009",
+        "Name":"Diana Chelagat",
+        "School":"Singo're Girls",
+        "Math":82,
+        "English":85,
+        "Kiswahili":81,
+        "Science":87
+    },
+    {
+        "ID":"SG010",
+        "Name":"Vivian Jelagat",
+        "School":"Singo're Girls",
+        "Math":70,
+        "English":74,
+        "Kiswahili":72,
+        "Science":69
+    },
+    {
+        "ID":"SG011",
+        "Name":"Ruth Jepkoech",
+        "School":"Singo're Girls",
+        "Math":58,
+        "English":61,
+        "Kiswahili":59,
+        "Science":56
+    },
+    {
+        "ID":"SG012",
+        "Name":"Caroline Chepkoech",
+        "School":"Singo're Girls",
+        "Math":95,
+        "English":92,
+        "Kiswahili":90,
+        "Science":96
+    },
+    {
+        "ID":"SG013",
+        "Name":"Naomi Jematia",
+        "School":"Singo're Girls",
+        "Math":77,
+        "English":80,
+        "Kiswahili":78,
+        "Science":83
+    },
+    {
+        "ID":"SG014",
+        "Name":"Emily Jepkemoi",
+        "School":"Singo're Girls",
+        "Math":63,
+        "English":67,
+        "Kiswahili":65,
+        "Science":60
+    },
+    {
+        "ID":"SG015",
+        "Name":"Jackline Chepkosgei",
+        "School":"Singo're Girls",
+        "Math":41,
+        "English":48,
+        "Kiswahili":44,
+        "Science":46
+    },
+    {
+        "ID":"SG016",
+        "Name":"Stacy Chepkurui",
+        "School":"Singo're Girls",
+        "Math":88,
+        "English":86,
+        "Kiswahili":89,
+        "Science":91
+    },
+    {
+        "ID":"SG017",
+        "Name":"Daisy Jepchumba",
+        "School":"Singo're Girls",
+        "Math":71,
+        "English":75,
+        "Kiswahili":73,
+        "Science":70
+    },
+    {
+        "ID":"SG018",
+        "Name":"Mercy Jelimo",
+        "School":"Singo're Girls",
+        "Math":54,
+        "English":57,
+        "Kiswahili":60,
+        "Science":53
+    },
+    {
+        "ID":"SG019",
+        "Name":"Joy Cheptoo",
+        "School":"Singo're Girls",
+        "Math":86,
+        "English":90,
+        "Kiswahili":88,
+        "Science":85
+    },
+    {
+        "ID":"SG020",
+        "Name":"Phyllis Jepkorir",
+        "School":"Singo're Girls",
+        "Math":68,
+        "English":72,
+        "Kiswahili":70,
+        "Science":66
+    },
+    {
+        "ID":"SG021",
+        "Name":"Anita Chebet",
+        "School":"Singo're Girls",
+        "Math":49,
+        "English":53,
+        "Kiswahili":51,
+        "Science":47
+    },
+    {
+        "ID":"SG022",
+        "Name":"Hellen Juma",
+        "School":"Singo're Girls",
+        "Math":80,
+        "English":83,
+        "Kiswahili":82,
+        "Science":84
+    },
+    {
+        "ID":"SG023",
+        "Name":"Lydia Chemutai",
+        "School":"Singo're Girls",
+        "Math":75,
+        "English":78,
+        "Kiswahili":76,
+        "Science":77
+    },
+    {
+        "ID":"SG024",
+        "Name":"Rachael Jepleting",
+        "School":"Singo're Girls",
+        "Math":93,
+        "English":91,
+        "Kiswahili":95,
+        "Science":89
+    }
+]
