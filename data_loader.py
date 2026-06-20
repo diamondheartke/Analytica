@@ -1,7 +1,6 @@
 # data_loader.py
 
 import pandas as pd
-import numpy as np
 
 import os
 import tkinter as tk
@@ -23,18 +22,18 @@ class DataLoader:
             ext = os.path.splitext(data_file)[1].lower()
 
             if ext == '.csv':
-                data = pd.read_csv(data_file).values
+                data = pd.read_csv(data_file)
 
             elif ext == '.json':
-                data = pd.read_json(data_file).values
+                data = pd.read_json(data_file)
 
             elif ext in ['.xls', '.xlsx']:
-                data = pd.read_excel(data_file).values
+                data = pd.read_excel(data_file)
 
             else:
                 raise ValueError(f"[ERROR] Unsupported format: {ext}")
 
-            return np.array(data)
+            return data
 
         except Exception as e:
             print(f"[ERROR] {e}")

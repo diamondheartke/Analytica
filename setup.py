@@ -1,23 +1,25 @@
+# setup.py
+
 import pandas as pd
 import os
 
-print(f"{'='*30}\nInitializing Analytica sample datasets\n{'='*30}")
+print(f"{'='*50}\nInitializing Analytica sample datasets\n{'='*50}")
 
 directories = [
     "data/nairobi", 
     "data/tambach",
     "data/singore",
     "data/alliance"
-]
+    ]
 
 for path in directories:
-    os.makedirs(path, exist_ok=True) # Prevent errors if dirs exist
+    os.makedirs(path, exist_ok=True) 
     
 print("Directory check complete!\n\n")
 
 print("Creating sample datasets......\n\n")
 
-# --- DATA DEFINITIONS (Kept as lists for clean setup) ---
+# Sample datasets
 nairobi_data = [
     {"ID": "S001", "Name": "Ava Heart", "School": "Nairobi High School", "Score": [80, 75, 54, 92]},
     {"ID": "S002", "Name": "Amina Hope", "School": "Nairobi High School", "Score": [74, 84, 64, 54]},
@@ -39,7 +41,7 @@ nairobi_data = [
     {"ID": "S018", "Name": "Faith Muthoni", "School": "Nairobi High School", "Score": [82, 79, 85, 80]},
     {"ID": "S019", "Name": "Peter Omondi", "School": "Nairobi High School", "Score": [66, 60, 64, 70]},
     {"ID": "S020", "Name": "Lucy Njeri", "School": "Nairobi High School", "Score": [73, 76, 71, 74]},
-    {"ID": "S021", "Caleb Bett": "Caleb Bett", "School": "Nairobi High School", "Score": [90, 85, 88, 87]},
+    {"ID": "S021", "Name": "Caleb Bett", "School": "Nairobi High School", "Score": [90, 85, 88, 87]},
     {"ID": "S022", "Name": "Aisha Mohamed", "School": "Nairobi High School", "Score": [52, 57, 54, 61]},
     {"ID": "S023", "Name": "Daniel Gakuru", "School": "Nairobi High School", "Score": [81, 83, 80, 85]},
     {"ID": "S024", "Name": "Priscah Chemutai", "School": "Nairobi High School", "Score": [60, 64, 62, 58]}
@@ -127,43 +129,40 @@ singore_data = [
 ]
 
 
-# --- THE DATAFRAME REFACTORING FUNCTION ---
-def process_and_save_data(raw_data, folder_name):
+# Data refractor 
+def save_data(raw_data, folder_name):
     """
     Converts list of dicts to DataFrame, expands the Score list into separate 
     subject columns, drops the old 'Score' column, and exports to disk.
     """
     df = pd.DataFrame(raw_data)
     
-    # 1. Expand the 'Score' list into separate columns
     subjects = ['Math', 'English', 'Kiswahili', 'Science']
     df[subjects] = pd.DataFrame(df['Score'].tolist(), index=df.index)
     
-    # 2. Drop the unscaled 'Score' column
+    # Drops the score column into subjects
     df = df.drop(columns=['Score'])
     
-    # 3. Save files
-    base_path = f"data/{folder_name}/all_students"
-    df.to_csv(f"{base_path}.csv", index=False)
-    df.to_excel(f"{base_path}.xlsx", index=False)
-    df.to_json(f"{base_path}.json", orient="records", indent=4) # Cleaned up json structure
+    file_path = f"data/{folder_name}/all_students"
+    df.to_csv(f"{file_path}.csv", index=False)
+    df.to_excel(f"{file_path}.xlsx", index=False)
+    df.to_json(f"{file_path}.json", orient="records", indent=4)
     
-    print(f"[SUCCESS] Created and scaled {folder_name} data!")
+    print(f"[SUCCESS] Created {folder_name} data!")
     return df
 
 
-# --- PROCESS INDIVIDUAL SCHOOLS ---
-n_df = process_and_save_data(nairobi_data, "nairobi")
-a_df = process_and_save_data(alliance_data, "alliance")
-t_df = process_and_save_data(tambach_data, "tambach")
-s_df = process_and_save_data(singore_data, "singore")
+n_df = save_data(nairobi_data, "nairobi")
+a_df = save_data(alliance_data, "alliance")
+t_df = save_data(tambach_data, "tambach")
+s_df = save_data(singore_data, "singore")
 
 
-# --- COMBINE AND MASTER LIST ---
+# Full Master List
 full_df = pd.concat([n_df, a_df, t_df, s_df], ignore_index=True)
 
 full_df.to_csv("data/all_students.csv", index=False)
 full_df.to_excel("data/all_students.xlsx", index=False)
 full_df.to_json("data/all_students.json", orient="records", indent=4)
 
-print(f"\n\n[SUCCESS] Master dataset created with {len(full_df)} total students across labeled columns.")
+print(f"\n\n[SUCCESS] Master dataset created with {len(full_df)} total students.")
