@@ -30,25 +30,25 @@ class Engine:
 		'''Calculates summary metrics ordered by rank
 		returns --> list of dicts'''
 		
-		df = pd.DataFrame(self.data)
+		self.df = pd.DataFrame(self.data)
 		
 		subject_headers = ''.join([f'{sub:<11}' for sub in self.subjects])
 		
-		df['Total'] = df[self.subjects].sum(axis=1)
-		df['Mean'] = df[self.subjects].mean(axis=1).round(2)     
-		df['Grade'] = df['Mean'].apply(self.grade)
+		self.df['Total'] = self.df[self.subjects].sum(axis=1)
+		self.df['Mean'] = self.df[self.subjects].mean(axis=1).round(2)     
+		self.df['Grade'] = self.df['Mean'].apply(self.grade)
 		
-		rank = df['Total'].rank(ascending=False, method='min').astype(int)
-		df.insert(0, 'Rank', rank)
+		rank = self.df['Total'].rank(ascending=False, method='min').astype(int)
+		self.df.insert(0, 'Rank', rank)
 		 
-		df = df.sort_values(by='Rank', ascending=True)
+		self.df = self.df.sort_values(by='Rank', ascending=True)
 		
-		self.summary_df = df
+		self.summary_df = self.df
 		
 		summary_report = []
 		output = f"{'Rank':<6} {'ID':<8} {'Name':<22} {subject_headers} {'Total':<8} {'Mean':<8} {'Grade':<8} {'School'}"
 		
-		for inx, row in df.iterrows():
+		for inx, row in self.df.iterrows():
 			scores = ''.join([f'{row[sub]:<11}' for sub in self.subjects])
 			report = {
 				'rank': row['Rank'],
@@ -65,7 +65,7 @@ class Engine:
 		return output, summary_report
 		
 	def save_summary(self):
-		if not hasattr(self, 'summary_df'):
+		if not hasattr(self, 'summary_self.df'):
 			print('[ERROR] Error when parsing Summary DataFrame.')
 			return 
 		
@@ -78,7 +78,18 @@ class Engine:
 		self.summary_df.to_json(f'{folder}/summary.json', orient='records', indent=4)
 		
 		print(f'[SUCESS] Created \'{report_name}\' summary report')
-			
+		
+	def insights(self):
+		'''Calculates'''
+		self.df = self.data
+		insight_report = []
+		
+		subject_average = self.df[self.subjects].mean(axis=0).round(2)
+		school_mean = self.df.groupby('School')['Mean'] # How to group by schools to get rank schools by the collective mean, iu mean by getting the mean of the schools and ranking them.
+		
+		print(subject_average)
+		print(school_mean)
+	
 if __name__ == '__main__':
 	from data_loader import DataLoader
 
@@ -98,6 +109,6 @@ if __name__ == '__main__':
 		for student in report:
 			print(f"{student['rank']:<6} {student['id']:<8} {student['name']:<22} {student['scores']:<44} {student['total']:<8} {student['mean']:<8} {student['grade']:<8} {student['school']}")
 		print("=" * 135)
-   
-	e.save_summary()
-	
+		print('\n\n')
+	#e.save_summary()
+	e.insights()	

@@ -9,7 +9,8 @@ Your docstring hints at classifying *subject* scores, but the logic currently on
 
 ### 2. Macro Analytics (System Insights)
 
-An engine shouldn't just process students one by one; it should look at the big picture. Add a new method (e.g., `def analyze_dataset(self)`) that uses NumPy to calculate:
+An engine shouldn't just p
+rocess students one by one; it should look at the big picture. Add a new method (e.g., `def analyze_dataset(self)`) that uses NumPy to calculate:
 
 * **Subject Averages:** The overall mean score for Math, English, etc., across the *entire* dataset using `axis=0` in NumPy.
 * **School Rankings:** Grouping students by their "School" column to find out which school has the highest collective mean score.
